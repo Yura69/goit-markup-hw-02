@@ -7,7 +7,13 @@
 body {
   font-family: Roboto, sans-serif;
 }
-
+li {
+  list-style-type: none;
+}
+.logo {
+  text-decoration: none;
+  color: var(--title-text-color);
+}
 .hd-nav {
   font-weight: 500;
   font-size: 14px;
@@ -32,7 +38,7 @@ body {
 .link-nav:focus {
   color: var(--accent-color);
 }
-h1 {
+.title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
